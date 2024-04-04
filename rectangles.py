@@ -2,7 +2,7 @@ import pygame
 import threading
 pygame.init()
 
-#  window display stuff
+#  window display
 window_width = 800
 window_height = 600
 gameDisplay = pygame.display.set_mode((window_width, window_height))
@@ -22,12 +22,12 @@ lead_x = int(window_width / 1.54807692308)
 lead_y = int(window_height / 5)
 block_size = 10
 
-# some other stuff I need
+# other
 clock = pygame.time.Clock()
 FPS = 15
 gameExit = False
 
-#  promenlivi sho kje mi trebaat vo programata
+#  promenlivi
 collisionLevo = collisionDesno = collisionUp = collisionDown = 0
 
 velocityL = velocityU = velocityR = velocityD = 1
